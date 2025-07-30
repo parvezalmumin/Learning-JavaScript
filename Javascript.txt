@@ -1,0 +1,18 @@
+ #Defination - JavaScript is a high-level, interpreted programming language that allows you to create interactive and dynamic content on websites. It runs in the browser, alongside HTML and CSS.
+
+         -Think of HTML as the structure (skeleton), CSS as the style (clothes), and JavaScript as the behavior (movements and brain) of a webpage.
+
+
+#Why Use JavaScript?
+    =JavaScript adds life to a website. You can use it to:
+
+                  -Show popups, alerts, or sliders
+
+                  -Make forms interactive (like checking input)
+
+                  -Build games and apps
+
+                  -Communicate with servers (APIs)
+
+                  -Modify HTML and CSS without reloading the page
+
