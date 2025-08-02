@@ -1,0 +1,2 @@
+ #What is a Variable?
+-A variable is like a box where you store data — like numbers, words, or anything — so you can use or change it later.
