@@ -1,0 +1,26 @@
+ # Expression
+- An expression is any valid unit of code that produces a value.
+   Example:- 
+              -5 + 3                      // 8 → an expression
+              -"x" + "y"                 // "xy" → a string expression
+              -true && false            // false → logical expression
+
+              
+ 
+#  Operator
+- An operator is a symbol that tells JavaScript to perform an action on values (like add, compare, assign, etc).
+   -- Common Operators:
+   
+     | Type       | Examples              |   
+     | ---------- | ----------------------| 
+     | Arithmetic | `+`,  `-`,  `*`,  `/` |   
+     | Assignment | `=`,  `+=`,  `-=`     |   
+     | Comparison | `==`,  `===`,  `!=`   |   
+     | Logical    | `&&`                  | 
+
+
+
+#Operand
+-Operands are the values or variables that the operator works on.
+
+   -- In 5 + 3 — the numbers 5 and 3 are operands, + is the operator, and 5 + 3 is the expression.
