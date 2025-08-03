@@ -1,0 +1,10 @@
+ 
+ ! (Logical NOT)
+
+
+Flips the truth value:
+
+                  -!true becomes false
+
+                  -!false becomes true
+                  
