@@ -1,0 +1,10 @@
+ Arithmetic Operators
+
+| Operator | Meaning             | Example  | Result |
+| -------- | ------------------- | -------- | ------ |
+| `+`      | Addition            | `5 + 3`  | `8`    |
+| `-`      | Subtraction         | `5 - 3`  | `2`    |
+| `*`      | Multiplication      | `5 * 3`  | `15`   |
+| `/`      | Division            | `6 / 2`  | `3`    |
+| `%`      | Modulus (remainder) | `7 % 2`  | `1`    |
+| `**`     | Exponentiation      | `2 ** 3` | `8`    |
