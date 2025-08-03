@@ -1,0 +1,9 @@
+ && (Logical AND)
+            -True if both conditions are true
+            -If any one is false, result is false.
+
+Example:-
+true  && true   // true
+true  && false  // false
+false && true   // false
+false && false  // false
