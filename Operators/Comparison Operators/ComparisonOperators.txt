@@ -1,0 +1,12 @@
+ Comparison Operators
+
+| Operator | Example     | Meaning                        |
+| -------- | ----------- | ------------------------------ |
+| `==`     | `5 == "5"`  | Equal (loose equality)         |
+| `===`    | `5 === "5"` | Strict equality (type matters) |
+| `!=`     | `5 != 3`    | Not equal                      |
+| `!==`    | `5 !== "5"` | Strict not equal               |
+| `>`      | `7 > 3`     | Greater than                   |
+| `<`      | `2 < 5`     | Less than                      |
+| `>=`     | `5 >= 5`    | Greater or equal               |
+| `<=`     | `3 <= 5`    | Less or equal                  |
