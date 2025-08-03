@@ -1,0 +1,22 @@
+ #What Are Increment and Decrement?
+     -These are unary operators (they work on a single variable) used to increase or decrease a number by 1.
+
+✅ Increment (++)
+Adds 1 to the value.
+
+✅ Decrement (--)
+Subtracts 1 from the value.
+
+
+
+🔄 Two Types:
+There are two ways to use these operators:
+
+1. Postfix: x++ or x--
+The value is used first, then changed.
+
+2. Prefix: ++x or --x
+The value is changed first, then used.
+
+
+
