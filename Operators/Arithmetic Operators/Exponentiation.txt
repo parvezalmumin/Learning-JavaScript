@@ -1,0 +1,20 @@
+ # Exponentiation (**) in JavaScript
+- The exponentiation operator (**) raises the first operand to the power of the second operand.
+
+
+#For example:
+-------------------------------------------------
+| 2 ** 3 // means 2 raised to the power of 3 = 8 |
+-------------------------------------------------
+
+
+ #Notes:
+         -a ** b is the same as Math.pow(a, b)
+
+        -Useful for:
+
+                   -/Squares and cubes
+
+                    -/Square roots (** 0.5)
+
+                    -/Scientific calculations
