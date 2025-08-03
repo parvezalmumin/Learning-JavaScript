@@ -1,4 +1,4 @@
- #What Are Increment and Decrement?
+  #What Are Increment and Decrement?
      -These are unary operators (they work on a single variable) used to increase or decrease a number by 1.
 
 ✅ Increment (++)
