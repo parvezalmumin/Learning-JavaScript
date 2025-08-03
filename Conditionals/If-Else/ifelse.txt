@@ -1,0 +1,11 @@
+ # if-else Statement
+
+ Syntax:
+ __________________________________________
+ |                                        |
+ | if (condition) {                       |
+ |      // runs if condition is true      |
+ |    } else {                            |
+ |    // runs if condition is false       |
+ |    }                                   |
+ |________________________________________|
