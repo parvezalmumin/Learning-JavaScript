@@ -1,0 +1,11 @@
+ || (Logical OR)
+             - True if at least one condition is true
+
+             - Only false when both are false
+
+
+true  || true   // true
+true  || false  // true
+false || true   // true
+false || false  // false
+   
