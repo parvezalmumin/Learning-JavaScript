@@ -1,0 +1,13 @@
+ # if-else if-else Chain
+
+ Syntax:
+ _____________________________________________________________
+ |                                                            |
+ | if (condition1) {                                          |
+ |    // runs if condition1 is true                           |
+ |   } else if (condition2) {                                 |
+ |  // runs if condition2 is true                             |
+ | } else {                                                   |
+ | // runs if none of the above are true                      |
+ | }                                                          |
+ |____________________________________________________________|
