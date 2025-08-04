@@ -1,0 +1,11 @@
+# What is a Loop?
+        - A loop is used when you want to repeat some code multiple times.
+
+
+Key Terms:
+               Loop Body = The code that runs again and again.
+
+               Condition = The rule that controls how long the loop continues.
+
+             Counter = A number that usually changes on each loop cycle (like i = i + 1).
+
