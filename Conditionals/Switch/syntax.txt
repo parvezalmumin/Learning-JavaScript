@@ -1,0 +1,28 @@
+  # What is switch?
+- The switch statement evaluates an expression and runs the matching case block.
+
+Syntax:
+____________________________________________________________
+|                                                           |
+| switch(expression) {                                      |
+|  case value1:                                             |
+|  // code to run if expression === value1                  |
+| break;                                                    |
+| case value2:                                              |
+| // code to run if expression === value2                   |
+| break;                                                    |
+| default:                                                  |
+|   // code to run if no case matches                       |
+| }                                                         |
+|___________________________________________________________|
+
+# Explanation:
+             -expression: This is evaluated once.
+
+             -case: Each case checks if the expression matches its value.
+
+             -break: Exits the switch block after a match is found. If omitted, it will "fall through" to the next case.
+
+             -default: Runs if no case matches (like the else block).
+
+
