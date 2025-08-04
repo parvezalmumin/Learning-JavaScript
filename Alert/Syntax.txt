@@ -1,0 +1,16 @@
+ # What is alert()?
+      - The alert() function is a built-in JavaScript method used to show a popup message box to the user. It’s often used for simple notifications, warnings, or debugging purposes.
+
+# Syntax:
+____________________________________________________________________
+|                                                                   |
+| alert("Your message here");                                       |
+|___________________________________________________________________|
+
+-It takes a string (or any value that can be converted to string) as input.
+-It pauses script execution until the user clicks OK.
+
+# Notes:
+       -alert() is blocking — it stops the page interaction until the user closes it.
+        -Avoid using alert() too often in real apps; use it mainly for debugging or simple feedback.
+       -For better user interfaces, use modal dialogs or notification libraries.
