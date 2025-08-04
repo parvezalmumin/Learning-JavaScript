@@ -1,0 +1,45 @@
+ # What is prompt()?
+          -prompt() is a built-in JavaScript function used to show a dialog box that asks the user to input some text.
+
+          -It pauses the script and waits for the user to enter something or cancel.
+
+# Syntax:
+___________________________________________________________________
+|                                                                  |
+| let variable = prompt("Message to show");                        |
+|__________________________________________________________________|
+
+# How It Works:
+               -The message inside the parentheses ("Message to show") appears in the dialog box.
+
+              -Whatever the user types is returned as a string and stored in the variable.
+
+              -If the user clicks Cancel, the result is null.
+
+
+# Example:
+_________________________________________________________________________
+|                                                                        |
+|  let name = prompt("What's your name?");                               |
+| alert("Hello, " + name + "!");                                         |
+|________________________________________________________________________|
+
+ # What happens here:
+                    -A box pops up with the message: "What's your name?"
+
+                    -If the I types "Parvez", then clicks OK:
+
+                                                                -) name becomes "Parvez"
+
+                                                                -) alert() shows: "Hello, Parvez!"
+
+
+# Notes:
+-Input from prompt() is always a string, even if the user enters a number.
+_____________________________________________________________________________
+|                                                                            |
+|  let age = prompt("Enter your age:");                                      |
+|  console.log(typeof age); // "string"                                      |
+|____________________________________________________________________________|
+
+-You may need to convert input using Number() if you want it as a number.
