@@ -1,0 +1,13 @@
+ How it works:
+              1-var i = 1; → Start with 1
+
+              2-while (i <= 5) → Keep running the block as long as i is 5 or less
+
+              3-Inside the loop:
+
+                                 3.1-Print the value
+
+                                3.2-Increase i by 1
+
+             4-When i becomes 6, the loop stops
+
