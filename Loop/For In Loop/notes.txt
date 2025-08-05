@@ -1,0 +1,15 @@
+ # What is for...in?
+-The for...in loop is used to iterate over the keys (property names) of an object.
+
+It can also be used on arrays, but it's not recommended for arrays because it iterates over keys/indexes, not values.
+
+# Syntax:
+______________________________________________________________________
+|                                                                    |
+| for (let key in object) {                                          |
+| // code to run using object[key]                                   |
+| }                                                                  |
+|____________________________________________________________________|
+-key: A variable that will take each property name in the object
+-object: The object whose properties we want to loop through
+

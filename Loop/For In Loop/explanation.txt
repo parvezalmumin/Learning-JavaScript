@@ -1,0 +1,4 @@
+# Explanation:
+             key will first be "name", then "age", then "country"
+
+             person[key] gives the value of that key
