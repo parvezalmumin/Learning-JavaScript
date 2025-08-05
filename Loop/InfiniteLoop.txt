@@ -27,7 +27,6 @@ So it never ends.
 -Update the counter properly.
 -Test with small loops first.
 
-
 # Warning:
 -Running an infinite loop in the browser or online editors can crash or freeze your browser.
 -Use console.log() carefully, and don’t run infinite loops unless you know how to stop them.
