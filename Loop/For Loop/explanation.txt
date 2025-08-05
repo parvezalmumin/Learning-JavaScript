@@ -1,0 +1,34 @@
+# Code:
+_________________________________________________
+|                                                |
+| for (var i = 1; i <= 5; i++) {                 |
+|  console.log("Number is:", i);                 |
+|  }                                             |
+|________________________________________________|
+
+# Parts of the for loop:
+___________________________________________________________
+|                                                         |
+| for (   var i = 1;     i <= 5;     i++   )              |
+|         |              |            |                   |
+| 1️⃣ Initial Value   2️⃣ Condition   3️⃣ Update Step      |
+|_________________________________________________________|
+
+# Step-by-Step Execution:
+                        - var i = 1;
+                                 -) Loop starts. We create a variable i and set it to 1.
+
+                        - i <= 5
+                                 -) Condition is checked. Is i less than or equal to 5?
+                                 -)) Yes → run the loop body.
+
+                        - console.log("Number is:", i);
+                                  -) Print the current value of i to the console.
+
+                        - i++
+                                  -) Now we increase i by 1 (same as i = i + 1).
+
+
+
+
+
