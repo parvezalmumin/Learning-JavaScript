@@ -1,0 +1,13 @@
+# What is happening here?
+                          -This is a for...of loop used on a string (strVar).
+                        -In JavaScript, strings are iterable, which means you can loop through each character in the string.
+    
+
+# Breakdown:
+        strVar: A string variable like "Parvez"
+
+        val: A temporary variable that will hold each character one by one
+
+Inside the loop, we can perform actions with val
+
+

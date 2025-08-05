@@ -1,0 +1,21 @@
+# What is for...of?
+   The for...of loop is used to iterate over iterable objects like:
+                                                                   - Arrays
+                                                                   - Strings
+                                                                   - Maps
+                                                                   - Sets
+                                                                    etc.
+
+It loops through values directly, not indexes.
+
+ # Syntax:
+ ________________________________________________________________
+ |                                                               |
+ | for (variable of iterable) {                                  |
+ |  // code to run                                               |
+ | }                                                             |
+ |_______________________________________________________________|
+ - variable: A new variable for each value in the iterable.
+- iterable: A collection (like an array or string).
+
+
