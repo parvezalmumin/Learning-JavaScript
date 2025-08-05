@@ -1,0 +1,34 @@
+#  What is an Infinite Loop?
+   - An infinite loop is a loop that never stops running because its condition never becomes false.
+
+# Example: Infinite while loop
+___________________________________________________________
+|                                                          |
+| while (true) {                                           |
+|  console.log("I will never stop!");                      |
+|  }                                                       |
+|__________________________________________________________|
+This code keeps printing "I will never stop!" forever, because the condition true is always true.
+
+
+Example: Infinite for loop (by mistake)
+________________________________________________________________
+|                                                               |
+| for (var i = 1; i >= 0; i++) {                                |
+| console.log("Oops");                                          |
+| }                                                             |
+|_______________________________________________________________|
+Here, i is increasing.
+But the condition is i >= 0, which is always true for positive numbers.
+So it never ends.
+
+# How to avoid infinite loops
+-Always make sure the condition will become false eventually.
+-Update the counter properly.
+-Test with small loops first.
+
+
+# Warning:
+-Running an infinite loop in the browser or online editors can crash or freeze your browser.
+-Use console.log() carefully, and don’t run infinite loops unless you know how to stop them.
+
