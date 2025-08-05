@@ -1,0 +1,8 @@
+#  How do...while works:
+                        - It runs the block at least once, even if the condition is false.
+
+                        - First, it executes the code inside the do block.
+
+                        - Then it checks the condition in while (...).
+
+                        - If the condition is true, it repeats. If false, it stops.
