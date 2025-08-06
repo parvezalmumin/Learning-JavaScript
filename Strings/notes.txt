@@ -1,0 +1,5 @@
+# What is a String in JavaScript?
+  -A string is a text value — any sequence of characters inside quotes (' ', " ", or ` `).
+  -It can be a single letter, a word, a sentence, or even emojis!
+
+  
