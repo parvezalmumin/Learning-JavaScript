@@ -1,0 +1,68 @@
+## slice(start, end?)
+
+- Purpose: Extracts a part of a string without changing the original string.
+- Syntax: string.slice(start, end)
+- Parameters: 
+             start: Index to start extraction (0-based).
+              end(optional): Index before which to stop extraction.
+-Returns: New string.
+____________________________________________________________
+|var text = "JavaScript";                                    |
+|console.log(text.slice(0, 4)); // Java                      |
+|console.log(text.slice(4));    // Script (till end)         |
+|____________________________________________________________|
+Note: end  is exclusive, meaning it won’t be included.
+
+---
+
+## split(separator, limit?)
+
+  -Purpose: Splits a string into an array based on a separator.
+  -Syntax: string.split(separator, limit)
+  -Parameters:
+               separator: Character(s) where the split happens.
+               limit (optional): Maximum number of splits.
+  -Returns: Array of substrings.
+______________________________________________________________________________
+| var fruits = "apple,banana,orange";                                         |
+| console.log(fruits.split(","));     // ["apple", "banana", "orange"]        |
+| console.log(fruits.split(",", 2));  // ["apple", "banana"]                  |
+|_____________________________________________________________________________|
+Note: split("") breaks the string into individual characters.
+
+---
+
+## join(separator)
+-Purpose: Joins all elements of an array into a string.
+-Syntax: array.join(separator)
+-Parameters:
+           separator: String to insert between elements.
+-Returns: String.
+____________________________________________________________________________
+| var arr = ["apple", "banana", "orange"];                                  |
+| console.log(arr.join(" - ")); // "apple - banana - orange"                |
+|___________________________________________________________________________|
+Note: Opposite of split() — works on arrays.
+
+
+
+Combined Example:
+_______________________________________________________________________________
+|                                                                              |
+| var text = "Hello World JavaScript";                                         |
+|                                                                              |
+| // Slice                                                                     |
+|  var sliced = text.slice(6, 11); // "World"                                  |
+|                                                                              |
+|   // Split                                                                   |
+|  var words = text.split(" "); // ["Hello", "World", "JavaScript"]            |
+|                                                                              |
+| // Join                                                                      |
+| var joined = words.join("_"); // "Hello_World_JavaScript"                    |
+|                                                                              |
+| console.log(sliced);                                                         |
+| console.log(words);                                                          |
+| console.log(joined);                                                         |
+|______________________________________________________________________________|
+
+
