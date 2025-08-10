@@ -1,0 +1,60 @@
+ # ( == vs === in JavaScript ) 
+
+-) == (Loose Equality / Abstract Comparison)
+                                             - Compares values only.
+
+                                             - Performs type coercion if the data types are different.
+
+                                             -  Can lead to unexpected results if not careful.
+
+Example:
+______________________________________________________________________________
+| 5 == "5"        // true   (number and string are coerced to same type)      |
+| 0 == false      // true   (both coerced to same type)                       |
+| null == undefined // true (they're loosely equal)                           |
+|_____________________________________________________________________________|
+
+-)  === (Strict Equality / Strict Comparison)
+                                            -Compares both value and type.
+
+                                            - No type coercion.
+
+                                            - Safer and more predictable, recommended for most cases.
+_____________________________________________________________________________
+| 5 === "5"       // false  (number vs string, types are different)          |
+|  0 === false     // false  (number vs boolean)                             |
+|  null === undefined // false                                               |
+|____________________________________________________________________________|
+
+---
+
+# Primitive Data Types
+   Immutable (cannot be changed) and stored directly in memory.
+
+Primitive types are basic, single values, not objects.
+When you copy them, a new independent value is created.
+
+    Primitive types in JavaScript:
+                            1.String – "Hello"
+                            2.Number – 42, 3.14
+                            3.Boolean – true / false
+                            4.Undefined – variable declared but not assigned
+                            5.Null – intentional empty value
+                            6.Symbol – unique value (Symbol("id"))
+                            7.BigInt – large integers beyond Number.MAX_SAFE_INTEGER (123n)
+
+
+
+# Non-Primitive (Reference) Data Types
+   Mutable (can be changed) and stored as references in memory.
+
+Non-primitive types are objects or things built from objects.
+When you copy them, you copy the reference (pointer to the same memory location), not the actual value.
+
+     Non-primitive types:
+                         1.Object – { name: "Parvez" }
+                         2.Array – ["apple", "banana"]
+                         3.Function – function greet() {}
+                         4.Date, RegExp, Map, Set, WeakMap, WeakSet, etc.
+
+                         
