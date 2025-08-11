@@ -1,0 +1,43 @@
+# for Loop with Arrays
+           - The traditional for loop uses an index to access array elements.
+           - You control:
+                        1.Initialization → Where to start
+                        2.Condition → When to stop
+                        3.Increment/Decrement → How to move
+
+    Example:
+    ____________________________________________________________________________
+    |                                                                          |
+    |         let fruits = ["Apple", "Banana", "Orange", "Mango"];             |
+    |          // Using traditional for loop                                   |
+    |        for (let i = 0; i < fruits.length; i++) {                         |
+    |         console.log("Index", i, ":", fruits[i]);                         |
+    |         }                                                                |
+    |__________________________________________________________________________|
+
+    Explanation:
+                    -  let i = 0 → Start at index 0.
+                    -  i < fruits.length → Continue while i is less than total items.
+                    -  i++ → Move to the next index after each loop.
+
+
+
+# for...of Loop with Arrays
+                           - Simpler way to loop through array values.
+                           - It does not give the index directly — it gives the element.
+
+ Example:
+ _____________________________________________________________________________
+ |                                                                            |
+ |   let fruits = ["Apple", "Banana", "Orange", "Mango"];                     |
+ |     // Using for...of loop                                                 |
+ |     for (let fruit of fruits) {                                            |
+ |    console.log("Fruit:", fruit);                                           |
+ |     }                                                                      |
+ |____________________________________________________________________________|
+
+ Explanation:
+            -  fruit takes the value of each element in the array during each iteration.
+            -  No need to use indexes.
+                        
+            
