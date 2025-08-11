@@ -1,0 +1,41 @@
+# What is an Array?
+                   -An array is a special type of variable in JavaScript that can store multiple values in a single variable.
+                   -These values can be of any data type — numbers, strings, booleans, objects, even other arrays.
+                   -Arrays are ordered collections; each value has a position called an index (starting from 0).
+ 
+ # Syntax
+ ____________________________________________________________________________
+ |                                                                           |
+ | let arrayName = [value1, value2, value3, ...];                            |
+ |___________________________________________________________________________|
+
+
+# Key Points About Arrays
+                     
+                     1.Indexing starts at 0
+                                             - array[0] is the first element.
+
+                     2.Arrays can store mixed data types
+                                            ___________________________________________________________________________
+                                            |                                                                          |
+                                            |  let mixed = [10, "Hello", true, null];                                  |
+                                            |__________________________________________________________________________|
+
+                    3. Common Array Methods
+
+                                      -) push() → Add to the end
+
+                                      -) pop() → Remove from the end
+
+                                       -) shift() → Remove from the start
+
+                                       -) unshift() → Add to the start
+
+                                       -) length → Get number of elements
+
+                                        -) slice() → Extract a section without changing the original
+
+                                        -) splice() → Add/remove elements at a specific index
+ 
+
+ 
