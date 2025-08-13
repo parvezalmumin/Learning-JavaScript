@@ -22,22 +22,3 @@
 
 
 
-# for...of Loop with Arrays
-                           - Simpler way to loop through array values.
-                           - It does not give the index directly — it gives the element.
-
- Example:
- _____________________________________________________________________________
- |                                                                            |
- |   let fruits = ["Apple", "Banana", "Orange", "Mango"];                     |
- |     // Using for...of loop                                                 |
- |     for (let fruit of fruits) {                                            |
- |    console.log("Fruit:", fruit);                                           |
- |     }                                                                      |
- |____________________________________________________________________________|
-
- Explanation:
-            -  fruit takes the value of each element in the array during each iteration.
-            -  No need to use indexes.
-                        
-            
