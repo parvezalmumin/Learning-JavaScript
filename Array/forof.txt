@@ -1,0 +1,26 @@
+ # for...of Loop with Arrays
+                           - Simpler way to loop through array values.
+                           - It does not give the index directly — it gives the element.
+
+ Example:
+ _____________________________________________________________________________
+ |                                                                            |
+ |   let fruits = ["Apple", "Banana", "Orange", "Mango"];                     |
+ |     // Using for...of loop                                                 |
+ |     for (let fruit of fruits) {                                            |
+ |    console.log("Fruit:", fruit);                                           |
+ |     }                                                                      |
+ |____________________________________________________________________________|
+
+ Explanation:
+            -  fruit takes the value of each element in the array during each iteration.
+            -  No need to use indexes.
+                        
+
+ How it works:
+               fruits → an iterable object (e.g., an array like ["apple", "banana", "orange"]).
+               fruit → a variable that takes the value of each element in fruits one by one on each loop iteration.
+               The loop runs once for every element in the array           
+
+
+
