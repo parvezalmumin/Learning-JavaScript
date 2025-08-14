@@ -1,0 +1,13 @@
+In JavaScript, concat() is used to merge two or more arrays into a new array without changing the original ones.
+
+Syntax:
+__________________________________________________________________________
+|                                                                         |
+| array1.concat(array2, array3, ...);                                     |
+|_________________________________________________________________________|
+
+Key Points:
+          - concat() does not modify the original arrays.
+          - we can merge multiple arrays at once.
+          - Works with both numbers and strings in arrays.
+          
