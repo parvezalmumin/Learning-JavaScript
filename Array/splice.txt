@@ -1,0 +1,10 @@
+ splice() Syntax:
+ _________________________________________________________________
+ |                                                                |
+ | array.splice(startIndex, deleteCount, item1, item2, ...);      |
+ |________________________________________________________________|
+
+  - startIndex → where to start changing the array.
+  - deleteCount → how many elements to remove.
+  - item1, item2, ... → elements to add (optional).
+  
