@@ -1,0 +1,20 @@
+The basic syntax is: 
+_____________________________________________
+|                                            |
+| function functionName(parameters) {        |
+|   // code to execute                       |
+| }                                          |
+|____________________________________________|
+
+Example:
+_____________________________________________________
+|                                                   |
+| function greet() {                                |
+|    console.log("Hello, welcome!");                |
+| }                                                 |
+|                                                   |
+| greet(); // Calling the function                  |
+|___________________________________________________|
+
+
+

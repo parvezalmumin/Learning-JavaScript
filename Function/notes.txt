@@ -1,0 +1,13 @@
+# What is a Function?
+A function is like a reusable machine in your code.
+       You give it some input (data), it processes that, and then gives you an output (result).
+
+Think of it like a coffee machine:
+               Input: Coffee powder + water
+               Machine: Coffee maker
+               Output: Coffee
+
+# Why use Functions?
+                    - Avoid repeating the same code again and again.
+                    - Keep code clean and organized.
+                    - Make your program easier to debug and update.        
