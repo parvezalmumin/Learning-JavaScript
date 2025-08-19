@@ -1,0 +1,42 @@
+# Parameter
+ - A parameter is like a placeholder (a variable) written inside the function definition.
+It’s waiting to receive a value when the function is called.
+
+Example:
+___________________________________________________
+|                                                  |
+| function greet(name) {                           |
+|    console.log("Hello, " + name);                |
+|  }                                               |
+|__________________________________________________|
+Here, name is a parameter.
+
+# Argument
+- An argument is the actual value you pass to the function when calling it.
+___________________________________________________________
+|                                                          |
+| greet("Parvez");                                         |
+|__________________________________________________________|
+Here, "Parvez" is the argument.
+
+ 
+# How They Work Together
+  - You define a function with parameters.
+  - You call a function with arguments.
+The argument value gets stored inside the parameter.
+__________________________________________________________
+|                                                         |
+| function add(x, y) {   // x and y are PARAMETERS        |
+|    console.log(x + y);                                  |
+| }                                                       |
+| add(5, 3);   // 5 and 3 are ARGUMENTS                   |
+|_________________________________________________________|
+Execution:
+x = 5
+y = 3
+Output: 8
+
+#Short formula to remember:
+Parameters = definition side
+Arguments = calling side
+
