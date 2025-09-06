@@ -26,3 +26,8 @@ const printHello = () => {
     console.log("Hello");
 }; 
 printHello(); // Hello
+
+
+//If the function body has only one statement, you can skip the curly braces {}
+const printhello = () => console.log("Hello");
+printhello(); // Hello
